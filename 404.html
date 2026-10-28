@@ -1,17 +1,30 @@
 <!doctype html>
-<html lang="en">
+<html lang="en-GB">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Page not found | 2ndScan</title>
+  <meta name="robots" content="noindex">
+  <meta name="theme-color" content="#20382a">
+  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
   <link rel="stylesheet" href="/assets/style.css">
 </head>
 <body>
-  <main>
-    <h1 class="brand">2ndScan</h1>
-    <p class="tagline">This page doesn't exist.</p>
-    <p class="intro">Worth a second look: the link may be wrong, or the page may have moved.</p>
-    <p><a href="/">Go to the home page</a></p>
+  <header class="site-header">
+    <div class="wrap">
+      <a class="brand" href="/" aria-label="2ndScan home">
+        <svg class="logo" width="34" height="34" viewBox="0 0 34 34" fill="none" aria-hidden="true"><circle cx="14.5" cy="14.5" r="10.5" stroke="currentColor" stroke-width="3"/><path d="M22.5 22.5L30.5 30.5" stroke="currentColor" stroke-width="3.2" stroke-linecap="round"/><path class="logo-arc" d="M9 14.5a5.5 5.5 0 0 1 5.5-5.5" stroke-width="3" stroke-linecap="round"/></svg>
+        <span class="wordmark">2nd<span>Scan</span></span>
+      </a>
+    </div>
+  </header>
+  <main class="band notfound">
+    <div class="wrap">
+      <p class="eyebrow">Page not found</p>
+      <h1>This page doesn’t exist.</h1>
+      <p>Worth a second look: the link may be wrong, or the page may have moved.</p>
+      <a class="btn btn-primary" href="/">Go to the home page</a>
+    </div>
   </main>
 </body>
 </html>

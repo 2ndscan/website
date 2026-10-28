@@ -1,21 +1,542 @@
 <!doctype html>
-<html lang="en">
+<html lang="en-GB">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>2ndScan: Take a second look</title>
-  <meta name="description" content="A free, independent tool that helps people pause, look again and decide for themselves.">
-  <link rel="stylesheet" href="/assets/style.css">
+  <meta name="description" content="2ndScan is a free, independent thinking habit for every age: three questions that help you pause, look again and decide for yourself, whether it’s a scam call, a fake clip, a rumour or a hateful post.">
+  <link rel="canonical" href="https://2ndscan.com/">
+  <meta name="theme-color" content="#20382a">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://2ndscan.com/">
+  <meta property="og:title" content="2ndScan: Take a second look">
+  <meta property="og:description" content="A free thinking habit for every age. Three questions that work on the phone, at the door and online.">
+  <meta property="og:image" content="https://2ndscan.com/assets/img/hero-1400.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="preload" href="assets/fonts/bricolage-grotesque-800.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="assets/fonts/atkinson-hyperlegible-next-400.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="assets/style.css">
 </head>
-<body>
-  <main>
-    <h1 class="brand">2ndScan</h1>
-    <p class="tagline">Take a second look.</p>
-    <p class="intro">A free, independent tool that helps people pause, look again and decide for themselves.</p>
-    <p class="badge">Coming soon</p>
+<body id="top">
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <div class="notice">
+    <div class="wrap">
+      <p><strong>Early concept.</strong> 2ndScan is being developed and tested. The examples on this page are invented.</p>
+    </div>
+  </div>
+
+  <header class="site-header">
+    <div class="wrap">
+      <a class="brand" href="#top" aria-label="2ndScan, back to top">
+        <svg class="logo" width="34" height="34" viewBox="0 0 34 34" fill="none" aria-hidden="true"><circle cx="14.5" cy="14.5" r="10.5" stroke="currentColor" stroke-width="3"/><path d="M22.5 22.5L30.5 30.5" stroke="currentColor" stroke-width="3.2" stroke-linecap="round"/><path class="logo-arc" d="M9 14.5a5.5 5.5 0 0 1 5.5-5.5" stroke-width="3" stroke-linecap="round"/></svg>
+        <span class="wordmark">2nd<span>Scan</span></span>
+      </a>
+      <nav class="site-nav" aria-label="Main">
+        <ul>
+          <li class="nav-hide"><a href="#how">How it works</a></li>
+          <li class="nav-hide"><a href="#why">Why a habit</a></li>
+          <li class="nav-hide"><a href="#research">Research</a></li>
+          <li class="nav-hide"><a href="#roadmap">Roadmap</a></li>
+          <li><a class="btn btn-primary btn-small" href="#get-involved">Get involved</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+
+    <!-- Hero -->
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="wrap">
+        <div class="hero-text">
+          <ul class="pills" aria-label="About 2ndScan">
+            <li>Free for everyone</li>
+            <li>Independent</li>
+            <li>For every age</li>
+          </ul>
+          <h1 id="hero-title">Take a <span class="mark">second look.</span></h1>
+          <p class="lead">A free thinking habit for every age. Pause, stay curious and decide for yourself, whether it’s a scam call, a fake clip, a rumour or a hateful post.</p>
+          <p class="hero-tag">Not a scam checker. Not a fact-checker. A thinking habit you keep for life.</p>
+          <div class="actions">
+            <a class="btn btn-primary" href="#how">See how it works</a>
+            <a class="btn btn-secondary" href="#get-involved">Get involved</a>
+          </div>
+          <p class="fineprint">Say it “second scan”. No adverts, no account and no tracking.</p>
+        </div>
+        <figure class="hero-figure">
+          <img src="assets/img/hero-1400.jpg" srcset="assets/img/hero-800.jpg 800w, assets/img/hero-1400.jpg 1400w" sizes="(max-width: 899px) 100vw, 520px" width="1400" height="933" alt="An older woman in glasses, smiling as she talks on her mobile phone at home." fetchpriority="high">
+          <div class="hero-card">
+            <p class="card-title"><svg width="22" height="22" viewBox="0 0 34 34" fill="none" aria-hidden="true"><circle cx="14.5" cy="14.5" r="10.5" stroke="currentColor" stroke-width="3"/><path d="M22.5 22.5L30.5 30.5" stroke="currentColor" stroke-width="3.2" stroke-linecap="round"/><path class="logo-arc" d="M9 14.5a5.5 5.5 0 0 1 5.5-5.5" stroke-width="3" stroke-linecap="round"/></svg>Take a second look</p>
+            <p>Who’s really calling, and why?</p>
+          </div>
+          <figcaption class="credit">Photo: <a href="https://unsplash.com/photos/f5uc9of5eak">A. C. on Unsplash</a></figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <!-- How it works -->
+    <section class="band band-surface" id="how" aria-labelledby="how-title">
+      <div class="wrap">
+        <div class="section-head">
+          <p class="eyebrow">How it works</p>
+          <h2 id="how-title">Three questions. Any age. Anywhere.</h2>
+          <p>2ndScan doesn’t tell anyone what to think. It asks the questions that help you think things through, then leaves the decision with you.</p>
+        </div>
+        <div class="how-grid">
+          <ol class="questions" role="list">
+            <li>Who’s saying this, and why?</li>
+            <li>What might be missing?</li>
+            <li>What do I really think now?</li>
+          </ol>
+          <div class="how-side">
+            <p>The questions work at nine and at ninety, on a screen or on the doorstep. The aim isn’t for anyone to need 2ndScan forever. It’s for the questions to become a habit that goes with you. Success means people need us less.</p>
+            <aside class="rule" aria-label="The one rule">
+              <p class="label">The one rule</p>
+              <p class="rule-q">Money, passwords or panic?</p>
+              <p>Stop. Check it another way, through a number or app you already trust, and talk to someone you trust.</p>
+            </aside>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Why a habit -->
+    <section class="band" id="why" aria-labelledby="why-title">
+      <div class="wrap">
+        <div class="section-head">
+          <p class="eyebrow">Why a habit</p>
+          <h2 id="why-title">Why a habit, not another app?</h2>
+          <p>AI is now part of everyday life at every age, and it’s getting harder to tell what’s real.</p>
+        </div>
+
+        <ul class="stats" aria-label="Things are changing fast">
+          <li class="stat">
+            <p class="stat-num">54%</p>
+            <p>of UK adults say they use AI tools, up from 31% a year earlier.</p>
+            <p class="source"><a href="https://www.ofcom.org.uk/media-use-and-attitudes/media-habits-adults/passive-social-media-use-ai-companionship-and-online-side-hustles-uk-adults-media-and-online-lives-revealed">Ofcom, Adults’ Media Use and Attitudes, 2026</a></p>
+          </li>
+          <li class="stat">
+            <p class="stat-num">64%</p>
+            <p>of 9 to 17-year-olds in the UK have used AI chatbots.</p>
+            <p class="source"><a href="https://www.internetmatters.org/hub/research/me-myself-and-ai-chatbot-research/">Internet Matters, Me, Myself and AI, July 2025</a></p>
+          </li>
+          <li class="stat">
+            <p class="stat-num">47%</p>
+            <p>of UK adults say it’s becoming harder to tell what’s genuine online.</p>
+            <p class="source"><a href="https://www.expressandstar.com/uk-news/ai-leaves-quarter-of-uk-adults-overwhelmed-by-sophistication-of-scams-9226986">National Trading Standards, Censuswide poll of 2,000 UK adults, September 2026</a></p>
+          </li>
+        </ul>
+        <p class="calm">The answer isn’t to fear everything. It’s a calm habit anyone can learn.</p>
+
+        <div class="why-grid">
+          <div class="why-text">
+            <p>Banks, phone companies and charities are doing important work to protect people, and it’s getting better all the time. But each one protects its own customers, in its own app, for as long as it runs. The tricks simply move to where the warnings can’t reach: the doorstep, the phone call, the family chat.</p>
+            <p>A habit goes wherever you go. It works without a screen, it doesn’t go out of date when the tricks change, and you can pass it on to the people you love. Once you’ve learned it, it’s yours for life. That’s how 2ndScan can stay free for everyone, forever.</p>
+          </div>
+          <ul class="reasons">
+            <li class="reason">
+              <h3>Works without a screen</h3>
+              <p>About 1.4 million people over 65 in England don’t go online at all. Three questions work at the door and on the phone too.</p>
+              <p class="source"><a href="https://www.ageuk.org.uk/latest-press/articles/age-uk-unveils-ground-breaking-analysis-of-where-our-older-population-is-on-the-digital-inclusion-spectrum-and-calls-on-the-government-to-get-digital-done-right/">Age UK, September 2026</a></p>
+            </li>
+            <li class="reason">
+              <h3>Doesn’t go out of date</h3>
+              <p>National Trading Standards warns that old tell-tale signs, like spelling mistakes, can no longer be relied on to spot scams made with AI. Asking who’s behind a message, and why, still works.</p>
+              <p class="source"><a href="https://www.expressandstar.com/uk-news/ai-leaves-quarter-of-uk-adults-overwhelmed-by-sophistication-of-scams-9226986">National Trading Standards, September 2026</a></p>
+            </li>
+            <li class="reason">
+              <h3>Works at the moment you decide</h3>
+              <p>Protection is improving: fraud where money is taken without permission fell 5% in 2025. Scams that persuade people to send money themselves rose 19%, to £576 million.</p>
+              <p class="source"><a href="https://www.ukfinance.org.uk/system/files/2026-06/UK%20Finance%20Fraud%20Report%202026.pdf">UK Finance, Fraud Report 2026</a></p>
+            </li>
+            <li class="reason">
+              <h3>Made to be shared</h3>
+              <p>One in three UK adults (35%) helped another adult use the internet in the past year, most often a relative. Shared questions give families a shared language.</p>
+              <p class="source"><a href="https://www.gov.uk/government/publications/how-people-are-helped-online-informal-and-proxy-digital-support">Research for DSIT, GOV.UK, September 2026</a></p>
+            </li>
+          </ul>
+        </div>
+
+        <p class="pull">Tools change. Tricks change.<br>A habit stays with you.</p>
+      </div>
+    </section>
+
+    <!-- One skill, three disguises -->
+    <section class="band band-surface" id="examples" aria-labelledby="examples-title">
+      <div class="wrap">
+        <div class="section-head">
+          <p class="eyebrow">Three examples</p>
+          <h2 id="examples-title">One skill, three disguises.</h2>
+          <p>Scams, AI fakes, rumours and hate look different, but they pull the same levers: tricks that push us to act before we think. A lever means slow down and check. It doesn’t always mean fake. Pick an example and take a second look.</p>
+        </div>
+
+        <fieldset class="disguise">
+          <legend class="sr-only">Choose an example</legend>
+          <input class="sr-only" type="radio" name="disguise" id="d-scam" checked>
+          <input class="sr-only" type="radio" name="disguise" id="d-rumour">
+          <input class="sr-only" type="radio" name="disguise" id="d-hate">
+          <div class="disguise-tabs">
+            <label for="d-scam">Scam call</label>
+            <label for="d-rumour">Rumour</label>
+            <label for="d-hate">Hate post</label>
+          </div>
+
+          <div class="disguise-panels">
+            <div class="disguise-panel" id="p-scam">
+              <div class="msg">
+                <p class="msg-where">Phone call · The voice sounds just like him</p>
+                <blockquote class="msg-body"><p>“Gran, it’s Jamie. I’ve lost my phone and I’m in trouble. Can you send £300 to my friend today? Please don’t tell Mum.”</p></blockquote>
+                <p class="instinct"><span class="label">First instinct</span> Help him, and fast.</p>
+              </div>
+              <div class="look">
+                <h3 class="look-title"><svg width="24" height="24" viewBox="0 0 34 34" fill="none" aria-hidden="true"><circle cx="14.5" cy="14.5" r="10.5" stroke="currentColor" stroke-width="3"/><path d="M22.5 22.5L30.5 30.5" stroke="currentColor" stroke-width="3.2" stroke-linecap="round"/><path class="logo-arc" d="M9 14.5a5.5 5.5 0 0 1 5.5-5.5" stroke-width="3" stroke-linecap="round"/></svg>Take a second look</h3>
+                <p class="label">Levers it pulls</p>
+                <ul class="chips">
+                  <li>Heartstrings</li>
+                  <li>Rush</li>
+                  <li>Secrecy</li>
+                </ul>
+                <p class="label">Ask yourself</p>
+                <p class="look-q">Could this be an AI copy of his voice? Why would he want it kept secret?</p>
+                <div class="next-step">
+                  <p class="label">A safe next step</p>
+                  <p>Hang up and call him back on the number you already have. A family code word helps too.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="disguise-panel" id="p-rumour">
+              <div class="msg">
+                <p class="msg-where">Family group chat · Forwarded many times</p>
+                <blockquote class="msg-body"><p>“SHARE before they delete this! Doctors don’t want you to know about this one simple cure.”</p></blockquote>
+                <p class="instinct"><span class="label">First instinct</span> Warn everyone I know.</p>
+              </div>
+              <div class="look">
+                <h3 class="look-title"><svg width="24" height="24" viewBox="0 0 34 34" fill="none" aria-hidden="true"><circle cx="14.5" cy="14.5" r="10.5" stroke="currentColor" stroke-width="3"/><path d="M22.5 22.5L30.5 30.5" stroke="currentColor" stroke-width="3.2" stroke-linecap="round"/><path class="logo-arc" d="M9 14.5a5.5 5.5 0 0 1 5.5-5.5" stroke-width="3" stroke-linecap="round"/></svg>Take a second look</h3>
+                <p class="label">Levers it pulls</p>
+                <ul class="chips">
+                  <li>Rush</li>
+                  <li>Too good to be true</li>
+                  <li>Only you know the truth</li>
+                </ul>
+                <p class="label">Ask yourself</p>
+                <p class="look-q">Where’s the evidence, and who’s behind it? Who gains if I share it?</p>
+                <div class="next-step">
+                  <p class="label">A safe next step</p>
+                  <p>Don’t share it yet. Ask a pharmacist or GP, or check the NHS website.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="disguise-panel" id="p-hate">
+              <div class="msg">
+                <p class="msg-where">Local community page · Shared 12,400 times</p>
+                <blockquote class="msg-body"><p>“BREAKING: Huge fire in the market square tonight. We all know who’s behind this. Share before they delete it!”</p></blockquote>
+                <p class="instinct"><span class="label">First instinct</span> Feel angry, and share it.</p>
+              </div>
+              <div class="look">
+                <h3 class="look-title"><svg width="24" height="24" viewBox="0 0 34 34" fill="none" aria-hidden="true"><circle cx="14.5" cy="14.5" r="10.5" stroke="currentColor" stroke-width="3"/><path d="M22.5 22.5L30.5 30.5" stroke="currentColor" stroke-width="3.2" stroke-linecap="round"/><path class="logo-arc" d="M9 14.5a5.5 5.5 0 0 1 5.5-5.5" stroke-width="3" stroke-linecap="round"/></svg>Take a second look</h3>
+                <p class="label">Levers it pulls</p>
+                <ul class="chips">
+                  <li>Us and them</li>
+                  <li>Fear</li>
+                  <li>Rush</li>
+                </ul>
+                <p class="label">Ask yourself</p>
+                <p class="look-q">Who exactly is “they”? Who benefits if I feel angry?</p>
+                <div class="next-step">
+                  <p class="label">A safe next step</p>
+                  <p>Don’t share yet. Check local news and police updates first.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </fieldset>
+        <p class="note">Invented examples, not live checks.</p>
+      </div>
+    </section>
+
+    <!-- Where 2ndScan fits -->
+    <section class="band" id="fits" aria-labelledby="fits-title">
+      <div class="wrap">
+        <div class="section-head">
+          <p class="eyebrow">Where 2ndScan fits</p>
+          <h2 id="fits-title">Alongside the good work already happening.</h2>
+          <p>Valuable work is already happening across the UK. 2ndScan is designed to sit alongside it and point people to it, not compete with it.</p>
+        </div>
+        <ul class="fits">
+          <li class="fit">
+            <h3>Banks and phone companies</h3>
+            <p>Build scam warnings into their apps and networks, and they’re getting better all the time.</p>
+            <p class="adds"><strong>2ndScan adds</strong> a habit that works whoever you bank with, and away from a screen.</p>
+          </li>
+          <li class="fit">
+            <h3>Scam awareness campaigns</h3>
+            <p>Warn people about the latest scams and how they work.</p>
+            <p class="adds"><strong>2ndScan adds</strong> questions that still work when the tricks change, and work on rumours and hate too.</p>
+          </li>
+          <li class="fit">
+            <h3>Fact-checkers</h3>
+            <p>Investigate claims and publish verdicts.</p>
+            <p class="adds"><strong>2ndScan adds</strong> the questions to ask first, and a nudge towards their work.</p>
+          </li>
+          <li class="fit">
+            <h3>Schools and media literacy</h3>
+            <p>Teach critical thinking to children, mostly in the classroom.</p>
+            <p class="adds"><strong>2ndScan adds</strong> the same skills at every age, and one shared language for whole families.</p>
+          </li>
+          <li class="fit">
+            <h3>Digital skills help</h3>
+            <p>Helps people get online and use services safely.</p>
+            <p class="adds"><strong>2ndScan adds</strong> thinking about what you see once you’re online, and offline too.</p>
+          </li>
+          <li class="fit fit-dark">
+            <h3>Not a scam checker. Not a fact-checker. A thinking habit.</h3>
+            <p>Where others give a verdict, 2ndScan gives you the questions and leaves the decision with you.</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Research -->
+    <section class="band band-surface" id="research" aria-labelledby="research-title">
+      <div class="wrap">
+        <div class="section-head">
+          <p class="eyebrow">Research</p>
+          <h2 id="research-title">Built to be tested, not just trusted.</h2>
+          <p>Before 2ndScan becomes an app, or anything else, we want independent researchers to find out whether the habit works, for whom, and whether it lasts. We’ll publish what we find, good or bad.</p>
+        </div>
+
+        <div class="evidence">
+          <h3>What the research says so far</h3>
+          <p>Learning common manipulation tricks in advance seems to help. A review of 33 experiments with more than 37,000 people found it helped people tell credible news from manipulative news, without making them distrust credible news. Not every researcher agrees, which is exactly why 2ndScan should be tested independently.</p>
+          <p class="source"><a href="https://research-information.bris.ac.uk/en/publications/a-signal-detection-theory-meta-analysis-of-psychological-inoculat/">Simchon and others, Current Opinion in Psychology, 2025</a>. For a different view: <a href="https://pubmed.ncbi.nlm.nih.gov/36996156/">Modirrousta-Galian and Higham, Journal of Experimental Psychology: General, 2023</a>.</p>
+        </div>
+
+        <h3 class="hyp-title">What we think, and how we’ll test it</h3>
+        <ul class="hypotheses">
+          <li class="hyp">
+            <p class="label">We think</p>
+            <h4>A pause before believing, sharing or paying reduces harm.</h4>
+            <p><strong>How we’ll test it:</strong> before and after a session, see how many people spot a scam and know the safe next step, then follow up three months later.</p>
+          </li>
+          <li class="hyp">
+            <p class="label">We think</p>
+            <h4>The habit carries over from screens to real life: the doorstep, the phone and the dinner table.</h4>
+            <p><strong>How we’ll test it:</strong> include offline situations in every pilot, and see whether people use the same questions.</p>
+          </li>
+          <li class="hyp">
+            <p class="label">We think</p>
+            <h4>Families who share the same questions feel more confident helping, and older relatives feel more independent.</h4>
+            <p><strong>How we’ll test it:</strong> short surveys with both the helper and the person they help, before and after.</p>
+          </li>
+          <li class="hyp">
+            <p class="label">We think</p>
+            <h4>Noticing your own patterns builds open-mindedness, not cynicism.</h4>
+            <p><strong>How we’ll test it:</strong> established questionnaires on open-mindedness, to check people question more without distrusting everything.</p>
+          </li>
+        </ul>
+
+        <div class="cta-box">
+          <div>
+            <h3>Researchers and universities: let’s design it together.</h3>
+            <p>Student projects, staff collaborations and independent evaluation are all welcome.</p>
+          </div>
+          <a class="btn btn-amber" href="mailto:hello@2ndscan.com?subject=Research%20and%202ndScan">Email hello@2ndscan.com</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Roadmap -->
+    <section class="band" id="roadmap" aria-labelledby="roadmap-title">
+      <div class="wrap roadmap-grid">
+        <div class="roadmap-intro">
+          <div class="section-head">
+            <p class="eyebrow">Roadmap</p>
+            <h2 id="roadmap-title">Small steps, each one tested.</h2>
+            <p>We’re starting small and doing it well. Each step is tested with real people before the next, and nothing goes live until it’s shown to help.</p>
+          </div>
+          <p>Why start with older people and families? Everyday life is moving online fast, many older people are being left behind, and families are often the first people they turn to.</p>
+          <figure>
+            <img src="assets/img/together-1200.jpg" srcset="assets/img/together-700.jpg 700w, assets/img/together-1200.jpg 1200w" sizes="(max-width: 899px) 100vw, 440px" width="1200" height="675" alt="An older couple on a sofa, smiling as they look at a smartphone together." loading="lazy">
+            <figcaption class="credit">Photo: <a href="https://unsplash.com/photos/Gefm1M8kyjI">Vitaly Gariev on Unsplash</a></figcaption>
+          </figure>
+        </div>
+        <ol class="steps" role="list">
+          <li class="is-now">
+            <div class="step-body">
+              <div class="step-head"><h3>Concept</h3><span class="status status-now">Now</span></div>
+              <p>The idea, the three questions and invented examples, shared so we can test the words.</p>
+            </div>
+          </li>
+          <li>
+            <div class="step-body">
+              <div class="step-head"><h3>Research and testing</h3><span class="status status-next">Next</span></div>
+              <p>With universities: does the habit work, for whom, and does it last?</p>
+            </div>
+          </li>
+          <li>
+            <div class="step-body">
+              <div class="step-head"><h3>First pilot with older people and families</h3><span class="status">Planned</span></div>
+              <p>Free 45-minute “Take a second look” sessions with community groups in Cambridgeshire, and a printed card to keep by the phone. No technology needed.</p>
+            </div>
+          </li>
+          <li>
+            <div class="step-body">
+              <div class="step-head"><h3>Schools and parents</h3><span class="status">Later</span></div>
+              <p>Working through teachers and parents, with consent and no child data kept.</p>
+            </div>
+          </li>
+          <li>
+            <div class="step-body">
+              <div class="step-head"><h3>Tools, if they help</h3><span class="status">Only if research supports it</span></div>
+              <p>Such as a “paste and check” helper or a browser extension, built only if people want them and the evidence says they help.</p>
+            </div>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- Pledge -->
+    <section class="band band-deep" id="pledge" aria-labelledby="pledge-title">
+      <div class="wrap">
+        <div class="section-head">
+          <p class="eyebrow">Our pledge</p>
+          <h2 id="pledge-title">A tool for society, not a product to sell.</h2>
+          <p>Like a good public library, 2ndScan should be free, shared and there for everyone. We’re writing these promises down now, before any money is involved.</p>
+        </div>
+        <div class="pledge-grid">
+          <div class="promise-group">
+            <p class="eyebrow">Our promises</p>
+            <ul class="promises">
+              <li><span class="badge">Pledge</span><h3>Free for everyone, forever</h3><p>No charge to use 2ndScan. Not now, and not later.</p></li>
+              <li><span class="badge">Pledge</span><h3>Your thinking stays yours</h3><p>No account, no sign-up and nothing to hand over.</p></li>
+              <li><span class="badge">Pledge</span><h3>No adverts, no data sales, no tracking</h3><p>Your attention and your data are not the business model.</p></li>
+              <li><span class="badge">Pledge</span><h3>Funders can’t buy influence</h3><p>Every funder listed publicly, with no say in what 2ndScan tells people.</p></li>
+            </ul>
+          </div>
+          <div class="promise-group promise-group-planned">
+            <p class="eyebrow">Being set up</p>
+            <ul class="promises">
+              <li><span class="badge badge-planned">Planned</span><h3>Run as a not-for-profit</h3><p>We plan to set up a community interest company, which locks its assets to its social purpose.</p></li>
+              <li><span class="badge badge-planned">Planned</span><h3>Open source</h3><p>Code anyone can inspect, so you don’t have to take our word for it.</p></li>
+              <li><span class="badge badge-planned">Planned</span><h3>Honest, independent evaluation</h3><p>Checked with research partners, and published good or bad.</p></li>
+            </ul>
+          </div>
+        </div>
+        <p class="trust-line">If 2ndScan ever has to choose between growth and trust, trust wins.</p>
+      </div>
+    </section>
+
+    <!-- Get involved -->
+    <section class="band" id="get-involved" aria-labelledby="involved-title">
+      <div class="wrap">
+        <div class="section-head">
+          <p class="eyebrow">Get involved</p>
+          <h2 id="involved-title">Help shape 2ndScan.</h2>
+          <p>We’re looking for partners who share one goal: more people thinking for themselves, safely and for free, so nobody is left behind.</p>
+        </div>
+        <ul class="involve">
+          <li class="featured">
+            <span class="status status-next">Most needed now</span>
+            <h3>Researchers and universities</h3>
+            <p>Help test whether the habit works, for whom, and whether it lasts. Student projects are welcome as well as staff collaborations.</p>
+          </li>
+          <li>
+            <h3>Funders</h3>
+            <p>Help keep 2ndScan free for everyone, with no strings on what it says. Your support teaches a habit that keeps working long after a grant ends.</p>
+          </li>
+          <li>
+            <h3>Older people’s groups and charities</h3>
+            <p>Host a free 45-minute “Take a second look” session in the first pilot. No sign-ups and no personal data.</p>
+          </li>
+          <li>
+            <h3>Families</h3>
+            <p>Try the three questions with someone you help, and tell us what works and what doesn’t.</p>
+          </li>
+          <li>
+            <h3>Digital helpers and volunteers</h3>
+            <p>Already help people get online at a library, charity or community centre? Try the questions in your sessions.</p>
+          </li>
+          <li>
+            <h3>Schools and parents</h3>
+            <p>Tell us if you’d like to help shape the schools phase, working through teachers and parents first.</p>
+          </li>
+        </ul>
+        <div class="contact">
+          <div>
+            <h3>Get in touch</h3>
+            <p>Tell us who you are and how you’d like to help.</p>
+            <p class="email">hello@2ndscan.com</p>
+          </div>
+          <a class="btn btn-primary" href="mailto:hello@2ndscan.com">Send an email</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Help right now -->
+    <section class="band band-surface" id="help-now" aria-labelledby="help-title">
+      <div class="wrap">
+        <div class="section-head">
+          <p class="eyebrow">Useful numbers</p>
+          <h2 id="help-title">Worried about a call, message or visit right now?</h2>
+          <p>2ndScan is an early concept and can’t advise on a specific case. These services can help today.</p>
+        </div>
+        <ul class="numbers">
+          <li>
+            <a class="number" href="tel:159">159</a>
+            <p>Hang up, then call 159 to reach your bank safely. It works for most UK banks. <a href="https://www.stopscamsuk.org.uk/159">About 159</a></p>
+          </li>
+          <li>
+            <p class="number">7726</p>
+            <p>Forward scam texts to 7726. It’s free.</p>
+          </li>
+          <li>
+            <a class="number" href="tel:03001232040">0300 123 2040</a>
+            <p>Report Fraud, if you’ve lost money or shared bank details. You can also report at <a href="https://www.reportfraud.police.uk">reportfraud.police.uk</a>. In Scotland, call Police Scotland on 101.</p>
+          </li>
+          <li>
+            <a class="number" href="tel:08006781602">0800 678 1602</a>
+            <p>Age UK Advice Line. Free, 8am to 7pm, every day of the year.</p>
+          </li>
+          <li>
+            <a class="number" href="tel:08000113764">0800 011 3764</a>
+            <p>ACT Early Support Line, if you’re worried someone is being drawn into hate or extremism. <a href="https://actearly.uk">actearly.uk</a></p>
+          </li>
+          <li>
+            <a class="number" href="tel:999">999</a>
+            <p>If someone is in immediate danger.</p>
+          </li>
+        </ul>
+        <p class="checked">Numbers checked October 2026.</p>
+      </div>
+    </section>
+
   </main>
-  <footer>
-    <p>2ndScan is a free, independent, not-for-profit project.</p>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a class="brand" href="#top" aria-label="2ndScan, back to top">
+            <svg class="logo" width="30" height="30" viewBox="0 0 34 34" fill="none" aria-hidden="true"><circle cx="14.5" cy="14.5" r="10.5" stroke="currentColor" stroke-width="3"/><path d="M22.5 22.5L30.5 30.5" stroke="currentColor" stroke-width="3.2" stroke-linecap="round"/><path class="logo-arc" d="M9 14.5a5.5 5.5 0 0 1 5.5-5.5" stroke-width="3" stroke-linecap="round"/></svg>
+            <span class="wordmark">2nd<span>Scan</span></span>
+          </a>
+          <p class="tagline">Take a second look.</p>
+        </div>
+        <div class="footer-notes">
+          <p>2ndScan is an independent, founder-led concept by Christina, based in Cambridge, UK. This site uses no cookies and no tracking.</p>
+          <p>Examples are invented and illustrative. Every figure links to its source, and figures were checked in October 2026.</p>
+          <p>Photos: <a href="https://unsplash.com/photos/f5uc9of5eak">A. C.</a> and <a href="https://unsplash.com/photos/Gefm1M8kyjI">Vitaly Gariev</a> on <a href="https://unsplash.com">Unsplash</a>. Typefaces: Atkinson Hyperlegible Next and Bricolage Grotesque, both open source and hosted on this site.</p>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>Free · Independent · For every age</p>
+        <p><a href="#top">Back to top</a></p>
+      </div>
+    </div>
   </footer>
 </body>
 </html>
