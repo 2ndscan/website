@@ -4,6 +4,8 @@ The home page keeps to one simple message and has no figures, apart from the hel
 
 **Last checked:** 29 October 2026. When you update a figure, update this date and the "checked in October 2026" lines on both pages.
 
+The home page's "Why it matters" section makes three general points without figures (feeds learn what keeps you scrolling, AI can copy a voice or face in minutes, we pick up views from the people around us) and links to this evidence instead.
+
 ## Evidence page: what's changing
 
 | On the site | Source | Detail |
@@ -39,6 +41,18 @@ The home page keeps to one simple message and has no figures, apart from the hel
 | Short videos about tricks like scapegoating, using invented non-political examples, helped people spot manipulation, and worked as well for liberals as for conservatives | [Roozenbeek and others (2022), University of Cambridge summary](https://www.cam.ac.uk/stories/inoculateexperiment) | "Psychological inoculation improves resilience against misinformation on social media", *Science Advances*. Seven experiments with almost 30,000 people, including a YouTube field study with 22,632 people. |
 | A 2023 reanalysis found some prebunking games made people more sceptical of all news | [Modirrousta-Galian and Higham (2023)](https://pubmed.ncbi.nlm.nih.gov/36996156/) | *Journal of Experimental Psychology: General*. Reanalysed five studies of the Bad News and Go Viral! games. The debate is open, which is why the site says 2ndScan should be tested independently. |
 
+## Evidence page: why these three questions
+
+These studies back the three questions on the home page (trace it, test it, own it). They're cited as research findings, not figures.
+
+| On the site | Source | Detail |
+|---|---|---|
+| **Trace it.** Professional fact-checkers judged websites best by leaving a site to see what other sources said about it ("lateral reading") | [Wineburg and McGrew (2019)](https://doi.org/10.1177/016146811912101102) | "Lateral reading and the nature of expertise: Reading less and learning more when evaluating digital information", *Teachers College Record* 121(11). Compared 10 PhD historians, 10 professional fact-checkers and 25 Stanford undergraduates. |
+| **Test it.** Asking people how they'd judge the same evidence if it pointed the other way reduced bias more than asking them to be fair and unbiased | [Lord, Lepper and Preston (1984)](https://doi.org/10.1037/0022-3514.47.6.1231) | "Considering the opposite: A corrective strategy for social judgment", *Journal of Personality and Social Psychology* 47(6), 1231 to 1243. Two experiments. |
+| **Own it.** People reasoned more wisely about their own problems when they looked at them as an outsider would, in younger and older adults alike | [Grossmann and Kross (2014)](https://doi.org/10.1177/0956797614535400) | "Exploring Solomon's paradox: Self-distancing eliminates the self-other asymmetry in wise reasoning about close relationships in younger and older adults", *Psychological Science* 25(8). |
+
+The page adds a caveat: these were controlled studies of one task at a time, so whether the questions become a lasting habit is what 2ndScan needs to test. Research rows added 30 October 2026.
+
 ## Helplines
 
 | Number | Where on the site | Detail |
@@ -50,6 +64,10 @@ The home page keeps to one simple message and has no figures, apart from the hel
 | 0800 011 3764 | Both pages | ACT Early Support Line, [actearly.uk](https://actearly.uk). For anyone worried someone is being drawn into hate or extremism. Open 9am to 5pm every day; calls outside those hours go to the Anti-Terrorist Hotline. Calls aren't recorded. |
 | True Vision | Evidence page | [report-it.org.uk](https://www.report-it.org.uk). Police-backed online hate crime reporting for England, Wales and Northern Ireland. |
 | 101 and 999 | Both pages | Police non-emergency and emergency numbers. |
+
+## Figures considered for the home page and left out
+
+- **"Over half of UK social media users saw false or misleading news in the past year"** and **"Only 21% of UK adults feel very confident judging whether online information is true"** (Ofcom 2026, as reported by The Register and ISPreview). Used in an early draft of the new home page. Left out because the home page has no figures, and because neither has been checked against the Ofcom report itself. Check the report before adding either to the evidence page.
 
 ## Figures from the concept document that are not on the site, and why
 
